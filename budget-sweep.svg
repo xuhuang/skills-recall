@@ -1,0 +1,42 @@
+<svg viewBox="0 0 720 360" role="img" xmlns="http://www.w3.org/2000/svg" width="720" height="360">
+  <style>text{font-family:system-ui,-apple-system,Segoe UI,sans-serif}.grid{stroke:#e1e0d9;stroke-width:1}.axis{stroke:#c3c2b7;stroke-width:1}.tick,.axis-title,.note{fill:#898781;font-size:12px}.end-label,.row-label,.value{fill:#52514e;font-size:12.5px}.line{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}.dot{stroke:#fcfcfb;stroke-width:2}.dot.hollow{fill:#fcfcfb;stroke-width:2.5}</style>
+  <rect width="100%" height="100%" fill="#fcfcfb" />
+  <title>Accuracy by skill-list budget</title>
+  <line class="grid" x1="56" x2="570" y1="312.0" y2="312.0" />
+  <text class="tick" x="48" y="316.0" text-anchor="end">0%</text>
+  <line class="grid" x1="56" x2="570" y1="240.0" y2="240.0" />
+  <text class="tick" x="48" y="244.0" text-anchor="end">25%</text>
+  <line class="grid" x1="56" x2="570" y1="168.0" y2="168.0" />
+  <text class="tick" x="48" y="172.0" text-anchor="end">50%</text>
+  <line class="grid" x1="56" x2="570" y1="96.0" y2="96.0" />
+  <text class="tick" x="48" y="100.0" text-anchor="end">75%</text>
+  <line class="grid" x1="56" x2="570" y1="24.0" y2="24.0" />
+  <text class="tick" x="48" y="28.0" text-anchor="end">100%</text>
+  <line class="axis" x1="56" x2="570" y1="312" y2="312" />
+  <line x1="120.2" x2="120.2" y1="283.2" y2="189.6" style="stroke:#2a78d6;stroke-width:2;opacity:.5" />
+  <circle class="dot" cx="120.2" cy="240.0" r="5" style="fill:#2a78d6">
+    <title>budget B (default): 25% (10–42%, 40 runs)</title>
+  </circle>
+  <text class="value" x="130.2" y="244.0">25%</text>
+  <text class="tick" x="120.2" y="330" text-anchor="middle">B (default)</text>
+  <line x1="248.8" x2="248.8" y1="268.8" y2="146.4" style="stroke:#2a78d6;stroke-width:2;opacity:.5" />
+  <circle class="dot" cx="248.8" cy="211.2" r="5" style="fill:#2a78d6">
+    <title>budget 2 × B: 35% (15–58%, 40 runs)</title>
+  </circle>
+  <text class="value" x="258.8" y="215.2">35%</text>
+  <text class="tick" x="248.8" y="330" text-anchor="middle">2 × B</text>
+  <line x1="377.2" x2="377.2" y1="182.4" y2="67.2" style="stroke:#2a78d6;stroke-width:2;opacity:.5" />
+  <circle class="dot" cx="377.2" cy="124.8" r="5" style="fill:#2a78d6">
+    <title>budget 5 × B: 65% (45–85%, 40 runs)</title>
+  </circle>
+  <text class="value" x="387.2" y="128.8">65%</text>
+  <text class="tick" x="377.2" y="330" text-anchor="middle">5 × B</text>
+  <line x1="505.8" x2="505.8" y1="110.4" y2="31.2" style="stroke:#2a78d6;stroke-width:2;opacity:.5" />
+  <circle class="dot" cx="505.8" cy="67.2" r="5" style="fill:#2a78d6">
+    <title>budget whole list fits: 85% (70–98%, 40 runs)</title>
+  </circle>
+  <text class="value" x="515.8" y="71.2">85%</text>
+  <text class="tick" x="505.8" y="330" text-anchor="middle">whole list fits</text>
+  <path class="line" d="M120.2,240.0 L248.8,211.2 L377.2,124.8 L505.8,67.2" style="stroke:#2a78d6" />
+  <text class="axis-title" x="313.0" y="352" text-anchor="middle">Room the harness gives the skill list (B = default budget)</text>
+</svg>

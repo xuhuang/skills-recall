@@ -1,0 +1,45 @@
+<svg viewBox="0 0 720 214" role="img" xmlns="http://www.w3.org/2000/svg" width="720" height="214">
+  <style>text{font-family:system-ui,-apple-system,Segoe UI,sans-serif}.grid{stroke:#e1e0d9;stroke-width:1}.axis{stroke:#c3c2b7;stroke-width:1}.tick,.axis-title,.note{fill:#898781;font-size:12px}.end-label,.row-label,.value{fill:#52514e;font-size:12.5px}.line{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}.dot{stroke:#fcfcfb;stroke-width:2}.dot.hollow{fill:#fcfcfb;stroke-width:2.5}</style>
+  <rect width="100%" height="100%" fill="#fcfcfb" />
+  <title>Accuracy with a real install</title>
+  <line class="grid" x1="260.0" x2="260.0" y1="10" y2="180" />
+  <text class="tick" x="260.0" y="196" text-anchor="middle">0%</text>
+  <line class="grid" x1="360.0" x2="360.0" y1="10" y2="180" />
+  <text class="tick" x="360.0" y="196" text-anchor="middle">25%</text>
+  <line class="grid" x1="460.0" x2="460.0" y1="10" y2="180" />
+  <text class="tick" x="460.0" y="196" text-anchor="middle">50%</text>
+  <line class="grid" x1="560.0" x2="560.0" y1="10" y2="180" />
+  <text class="tick" x="560.0" y="196" text-anchor="middle">75%</text>
+  <line class="grid" x1="660.0" x2="660.0" y1="10" y2="180" />
+  <text class="tick" x="660.0" y="196" text-anchor="middle">100%</text>
+  <text class="row-label" x="250" y="26" text-anchor="end">Haiku: default</text>
+  <path d="M260,14 h96.0 q4,0 4,4 v10 q0,4 -4,4 h-96.0 Z" style="fill:#eb6834">
+    <title>Haiku: default: 25% (10–45%, 20 runs)</title>
+  </path>
+  <line x1="300.0" x2="440.0" y1="23" y2="23" style="stroke:#0b0b0b;stroke-width:1.5;opacity:.55" />
+  <text class="value" x="448.0" y="27">25%</text>
+  <text class="row-label" x="250" y="60" text-anchor="end">Haiku: descriptions not cut</text>
+  <path d="M260,48 h336.0 q4,0 4,4 v10 q0,4 -4,4 h-336.0 Z" style="fill:#2a78d6">
+    <title>Haiku: descriptions not cut: 85% (70–100%, 20 runs)</title>
+  </path>
+  <line x1="540.0" x2="660.0" y1="57" y2="57" style="stroke:#0b0b0b;stroke-width:1.5;opacity:.55" />
+  <text class="value" x="668.0" y="61">85%</text>
+  <text class="row-label" x="250" y="94" text-anchor="end">Sonnet: default</text>
+  <path d="M260,82 h336.0 q4,0 4,4 v10 q0,4 -4,4 h-336.0 Z" style="fill:#eb6834">
+    <title>Sonnet: default: 85% (70–100%, 20 runs)</title>
+  </path>
+  <line x1="540.0" x2="660.0" y1="91" y2="91" style="stroke:#0b0b0b;stroke-width:1.5;opacity:.55" />
+  <text class="value" x="668.0" y="95">85%</text>
+  <text class="row-label" x="250" y="128" text-anchor="end">Sonnet: descriptions not cut</text>
+  <path d="M260,116 h376.0 q4,0 4,4 v10 q0,4 -4,4 h-376.0 Z" style="fill:#2a78d6">
+    <title>Sonnet: descriptions not cut: 95% (85–100%, 20 runs)</title>
+  </path>
+  <line x1="600.0" x2="660.0" y1="125" y2="125" style="stroke:#0b0b0b;stroke-width:1.5;opacity:.55" />
+  <text class="value" x="668.0" y="129">95%</text>
+  <text class="row-label" x="250" y="162" text-anchor="end">Opus (1M): default</text>
+  <path d="M260,150 h376.0 q4,0 4,4 v10 q0,4 -4,4 h-376.0 Z" style="fill:#eb6834">
+    <title>Opus (1M): default: 95% (85–100%, 20 runs)</title>
+  </path>
+  <line x1="600.0" x2="660.0" y1="159" y2="159" style="stroke:#0b0b0b;stroke-width:1.5;opacity:.55" />
+  <text class="value" x="668.0" y="163">95%</text>
+</svg>
